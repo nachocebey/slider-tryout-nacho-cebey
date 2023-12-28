@@ -1,0 +1,16 @@
+body {
+  background-color: #4b5563;
+  font-family: sans-serif;
+  margin-left: 10;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+span {
+  margin: 10px 0px 10px 0px;
+}

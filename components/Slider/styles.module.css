@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.sliderContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rangeContainer {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 20px;
+  position: relative;
+}
+
+.range {
+  height: 10px;
+  width: 100%;
+  background-color: #1c1917;
+  position: absolute;
+}
+
+.bullet {
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  cursor: grab;
+}
+.bullet:hover {
+    padding: 2px;
+
+}
+
+.isDragging {
+  cursor: grabbing;
+}
+
+.maxBullet {
+  background-color: #ea580c;
+}
+
+.minBullet {
+  background-color: #facc15;
+}
